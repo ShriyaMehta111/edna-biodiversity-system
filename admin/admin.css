@@ -1,0 +1,48 @@
+body {
+    background: #f5f7fb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #1B263B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    color: #E0E6ED;
+    background: #243447;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background: #4AB19D;
+    color: white;
+}
+
+.logout {
+    background: #D9534F !important;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    margin-left: 260px;
+}
+
+.card {
+    border-radius: 12px;
+}
